@@ -1,0 +1,57 @@
+Beijing PM2.5
+
+Source: Chen, S. (2015). Beijing PM2.5 [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5JS49.
+
+Author: Song Chen
+
+General: This hourly data set contains the PM2.5 data of US Embassy in Beijing. Meanwhile, meteorological data from Beijing Capital International Airport are also included.  
+
+Subject Area: Climate and Environment  
+
+Associated Tasks:  Regression
+
+Dataset Characteristics: Multivariate, Time-Series  
+
+Instances: 43824  
+
+Columns count: 13 
+
+Missing values: Yes  
+
+Additional info: The data's time period is between Jan 1st, 2010 to Dec 31st, 2014. Missing data are denoted as "NA".  
+
+Introductory Paper: Assessing Beijing's PM2.5 pollution: severity, weather impact, APEC and winter heating (https://www.semanticscholar.org/paper/8a82cccc111cbe3e7ff7bc16a3345afe8351a425)
+By Xuan Liang, T. Zou, Bin Guo, Shuo Li, Haozhe Zhang, Shuyi Zhang, Hui Huang, S. Chen. 2015
+Published in Proceedings of the Royal Society A
+
+| Variable Name | Role    | Type        | Description | Units | Missing Values |
+| ------------- | ------- | ----------- | ----------- | ----- | -------------- |
+| No            | ID      | Integer     |             |       | no             |
+| year          | Feature | Integer     |             |       | no             |
+| month         | Feature | Integer     |             |       | no             |
+| day           | Feature | Integer     |             |       | no             |
+| hour          | Feature | Integer     |             |       | no             |
+| pm2.5         | Target  | Integer     |             |       | yes            |
+| DEWP          | Feature | Integer     |             |       | no             |
+| TEMP          | Feature | Integer     |             |       | no             |
+| PRES          | Feature | Integer     |             |       | no             |
+| cbwd          | Feature | Categorical |             |       | no             |
+| Iws           | Feature | Continuous  |             |       | no             |
+| Is            | Feature | Integer     |             |       | no             |
+| Ir            | Feature | Integer     |             |       | no             |
+
+Columns explanation:
+
+No: row number
+year: year of data in this row
+month: month of data in this row
+day: day of data in this row
+hour: hour of data in this row
+pm2.5: PM2.5 concentration
+DEWP: Dew Point
+TEMP: Temperature
+PRES: Pressure
+cbwd: Combined wind direction
+Iws: Cumulated wind speed
+Is: Cumulated hours of snow
+Ir: Cumulated hours of rain

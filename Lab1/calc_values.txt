@@ -1,0 +1,7 @@
+Mean: 98.21860398245992
+Trimmed mean: 97.83608249897956
+Median: 72.0
+Variance: 8201.29000948596
+Standard deviation: 90.56097398706554
+Mean absolute deviation: 68.37316456596182
+Median absolute deviation: 49.0
